@@ -159,6 +159,47 @@ body {
 
 /* styling header end */
 
+/* styling main start */
+
+.get-started {}
+
+.get-started__container {}
+
+.get-started__block-text {}
+
+.get-started__video {}
+
+.get-started__image {}
+
+.ger-started {}
+
+.ger-started__content {}
+
+.block-text {}
+
+.block-text__title {}
+
+.block-text__title-blue {}
+
+.block-text__text {}
+
+.block-text__button {}
+
+.button {}
+
+.video-get-started {}
+
+.video-get-started__icon {}
+
+.video-get-started__body {}
+
+.video-get-started__title {}
+
+.video-get-started__text {}
+
+
+/* styling main end */
+
 
 
 @media(max-width: 1057px) {
