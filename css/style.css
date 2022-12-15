@@ -1,6 +1,3 @@
-
-
-
 *,
 *::before,
 *::after {
@@ -40,13 +37,13 @@ body {
     line-height: 1;
 }
 
-body{
+body {
     font-family: 'Rubik';
     font-size: 12px;
     color: #616161;
 }
 
-.wrapper{
+.wrapper {
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -54,12 +51,37 @@ body{
 
 }
 
-.container {
+.header__container {
     max-width: 1057px;
-    margin: 0 audio;
+    margin: 0 auto;
 }
 
 /* put footer down */
-.main{
+.main {
     flex: 1 1 auto;
 }
+
+/* styling header start */
+
+.header {}
+
+.header__container {}
+
+.header__logo {}
+
+.header__menu {}
+
+.header__button {}
+
+.menu {}
+
+.menu__list {}
+
+.menu__item {}
+
+.menu__link {}
+
+
+
+
+/* styling header end */
