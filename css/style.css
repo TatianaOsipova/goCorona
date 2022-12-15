@@ -51,7 +51,8 @@ body {
 
 }
 
-.header__container {
+.header__container,
+.get-started__container {
     max-width: 1087px;
     margin: 0 auto;
     padding: 0 15px;
@@ -89,7 +90,7 @@ body {
 
 .header__button {
     position: relative;
-    z-index: 5; 
+    z-index: 5;
     flex: 0 0 252px;
     display: flex;
     justify-content: flex-end;
@@ -120,8 +121,8 @@ body {
     letter-spacing: 1px;
 }
 
-.menu__link:hover{
-    text-decoration: underline;    
+.menu__link:hover {
+    text-decoration: underline;
 }
 
 .button {
@@ -156,12 +157,9 @@ body {
     display: none;
 }
 
-
-
-
-
-
 /* styling header end */
+
+
 
 @media(max-width: 1057px) {
     .header__container {
@@ -201,11 +199,11 @@ body {
         transition: left 0.3s ease 0s;
     }
 
-    .header:target .menu__body{
+    .header:target .menu__body {
         left: 0;
     }
 
-    .header:target .menu__body::before{
+    .header:target .menu__body::before {
         content: "";
         position: fixed;
         top: 0;
@@ -215,13 +213,10 @@ body {
         background-color: #fff;
     }
 
-
-
     .menu__list {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
     }
 
     .menu__item {
@@ -248,8 +243,6 @@ body {
         margin: 0 0 0 20px;
     }
 
-
-
     .icon-menu::before,
     .icon-menu::after {
         content: "";
@@ -262,7 +255,7 @@ body {
         background-color: #000;
     }
 
-    .close-icon-menu{
+    .close-icon-menu {
         /* display: none; */
         flex: 0 0 30px;
         height: 30px;
@@ -271,7 +264,7 @@ body {
     }
 
     .close-icon-menu::before,
-    .close-icon-menu::after{
+    .close-icon-menu::after {
         content: "";
         position: absolute;
         top: 50%;
@@ -282,25 +275,21 @@ body {
         /* transform-origin: 0 0; */
     }
 
-    
-
-    .close-icon-menu::before{
+    .close-icon-menu::before {
         transform: rotate(-45deg);
     }
 
-    .close-icon-menu::after{
+    .close-icon-menu::after {
         transform: rotate(45deg);
     }
 
-    .header:target .icon-menu{
+    .header:target .icon-menu {
         display: none;
     }
 
-    .header:target .close-icon-menu{
+    .header:target .close-icon-menu {
         display: flex;
     }
-
-    
 }
 
 @media(max-width: 479.98px) {
