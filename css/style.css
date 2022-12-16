@@ -160,11 +160,9 @@ body {
 
 /* styling header end */
 
-/* styling main start */
+/* styling section get-started start */
 
 /* for every section */
-
-.block-text {}
 
 .block-text__title {
     font-weight: 700;
@@ -196,8 +194,6 @@ body {
 .block-text__text:not(:last-child) {
     margin: 0 0 24px 0;
 }
-
-.block-text__button {}
 
 /* ************************************* */
 
@@ -283,7 +279,40 @@ body {
     color: #000000;
 }
 
-/* styling main end */
+/* styling get-started end */
+
+/* styling section stay-safe start */
+
+.stay-safe {}
+
+.stay-safe__container {}
+
+.stay-safe__media {}
+
+.stay-safe__content {}
+
+.media-stay-safe {}
+
+.media-stay-safe__image {}
+
+.get-started {}
+
+.get-started__block-text {}
+
+.block-text {}
+
+.button {}
+
+.block-text__title {}
+
+.block-text__text {}
+
+.block-text__button {}
+
+
+
+/* styling section stay-safe end */
+
 
 
 
@@ -313,7 +342,7 @@ body {
     }
 }
 
-@media(max-width: 990px){
+@media(max-width: 990px) {
     .menu__item {
         margin: 0px 15px 0px 0px;
     }
@@ -429,7 +458,7 @@ body {
         display: flex;
     }
 
-    .get-started__container{
+    .get-started__container {
         padding: 100px 15px 30px 15px;
     }
 
@@ -437,26 +466,26 @@ body {
         display: none;
     }
 
-    .get-started__block-text{
-        max-width: none;        
+    .get-started__block-text {
+        max-width: none;
     }
 
-    .ger-started__content{
+    .ger-started__content {
         flex: 1 1 100%;
         padding: 0;
     }
 
-    .get-started__image{
+    .get-started__image {
         flex: 1 1 100%;
         text-align: center;
         padding: 30px 0;
     }
 
-    .get-started__video{
+    .get-started__video {
         padding: 0;
     }
 
-    .block-text__title{
+    .block-text__title {
         font-size: 34px;
     }
 }
