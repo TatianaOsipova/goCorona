@@ -52,7 +52,8 @@ body {
 }
 
 .header__container,
-.get-started__container {
+.get-started__container,
+.stay-safe__container {
     max-width: 1087px;
     margin: 0 auto;
     padding: 0 15px;
@@ -310,6 +311,13 @@ body {
         right: 185px;
         border-radius: 20px 0px 0px 20px;
     }
+}
+
+@media(max-width: 990px){
+    .menu__item {
+        margin: 0px 15px 0px 0px;
+    }
+
 }
 
 @media(max-width: 767.98px) {
