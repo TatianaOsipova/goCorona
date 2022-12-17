@@ -483,6 +483,25 @@ body {
 
 /* styling section experts end */
 
+/* styling section healthcare start */
+
+.healthcare {}
+
+.healthcare__container {}
+
+.healthcare__block-text {}
+
+.block-text__center{
+    text-align: center;
+}
+
+.block-text__text_mw{
+
+}
+
+
+/* styling section healthcare end */
+
 
 
 
