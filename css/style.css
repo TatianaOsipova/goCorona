@@ -489,14 +489,17 @@ body {
 
 .healthcare__container {}
 
-.healthcare__block-text {}
+.healthcare__block-text {
+    margin: 0 0 45px 0;
+}
 
-.block-text__center{
+.block-text_center{
     text-align: center;
 }
 
 .block-text__text_mw{
-
+    max-width: 620px;
+    margin: 0 auto;
 }
 
 
