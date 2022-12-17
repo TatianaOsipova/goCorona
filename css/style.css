@@ -53,7 +53,8 @@ body {
 
 .header__container,
 .get-started__container,
-.stay-safe__container {
+.stay-safe__container,
+.experts__container {
     max-width: 1087px;
     margin: 0 auto;
     padding: 0 15px;
@@ -361,6 +362,40 @@ body {
 
 /* styling section stay-safe end */
 
+/* styling section experts start */
+
+.experts {}
+
+.experts__container {}
+
+.experts__statistics {}
+
+.statistics-experts {}
+
+.statistics-experts__decor_1 {}
+
+.statistics-experts__decor_2 {}
+
+.statistics-experts__decor_3 {}
+
+.statistics-experts__body {}
+
+.statistics-experts__decor {}
+
+.body-statistics-experts {}
+
+.body-statistics-experts__item {}
+
+.body-statistics-experts__value {}
+
+.body-statistics-experts__text {}
+
+
+
+
+/* styling section experts end */
+
+
 
 
 
@@ -546,7 +581,7 @@ body {
         font-size: 34px;
     }
 
-    .stay-safe{
+    .stay-safe {
         padding: 30px 0;
     }
 
