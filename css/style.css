@@ -508,16 +508,19 @@ body {
 
 .healthcare__items {
     display: flex;
-    max-width: 980px;
-    margin: 0 auto;
-    gap: 72px;
+    /* margin: 0 -36px; */
+    /* gap: 72px; */
 }
 
-.healthcare__item {
+.healthcare__column {
+    padding: 0 36px;
     flex: 0 1 33.333%;
 }
 
+.healthcare__item {}
+
 .item-healthcare {
+    position: relative;
     background-color: #fff;
     box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
     border-radius: 8px;
@@ -546,6 +549,29 @@ body {
     line-height: 138.5%;
     color: #616161;
 }
+
+.item-healthcare-1 {}
+
+.item-healthcare-1::before,
+.item-healthcare-1::after {
+    content: "";
+    position: absolute;
+    background-color: #EC5863;
+    border-radius: 16px;
+}
+
+.item-healthcare-1::before {
+    width: 65px;
+    height: 65px;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-30deg);
+
+
+
+}
+
+
 
 
 /* styling section healthcare end */
