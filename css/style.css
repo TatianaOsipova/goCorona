@@ -48,14 +48,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
-
 }
 
 .header__container,
 .get-started__container,
 .stay-safe__container,
 .experts__container,
-.healthcare__container {
+.healthcare__container,
+.footer__container {
     max-width: 1087px;
     margin: 0 auto;
     padding: 0 15px;
@@ -595,10 +595,18 @@ body {
     transform: rotate(-30deg);
 }
 
-
-
-
 /* styling section healthcare end */
+
+/* styling footer start */
+
+.footer {}
+
+.footer__container {}
+
+.footer__item {}
+
+/* styling footer end */
+
 
 
 
