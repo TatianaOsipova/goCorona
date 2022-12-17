@@ -369,7 +369,7 @@ body {
     padding: 103px 0 116px 0;
 }
 
-.experts__block-text{
+.experts__block-text {
     max-width: 400px;
 }
 
@@ -377,6 +377,32 @@ body {
     max-width: 655px;
     margin: 0 auto;
     position: relative;
+}
+
+.experts__body{
+    display: flex;
+    align-items: center;
+}
+
+.experts__content{
+    flex: 0 1 50%;
+    padding: 0 20px 0 0;
+}
+
+.experts__video{
+    flex: 0 1 50%;
+    padding: 0 0 30% 0;
+    position: relative;
+}
+
+.experts__video iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+
 }
 
 .statistics-experts__body {
